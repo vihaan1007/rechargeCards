@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(30, 30, 30);
+    margin: 0px 0px 5px 5px;
+    height: 550px;
+}
+
+footer{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgb(20, 20, 20);
+    color: cadetblue;
+}
+
+header{
+    color: aquamarine;
+    font-size: 15px;
+    text-align: center;
+    height: 75px;
+    border: 2px solid wheat;
+}
+
+
+/*Cards*/
+
+#Basic{
+    height: 200px;
+    width: 450px;
+    background-color: gainsboro;
+    border: 2px dashed wheat;
+    margin: 20px 0px 0px 5px;
+}
+
+#Pro{
+    height: 200px;
+    width: 450px;
+    background-color: paleturquoise;
+    border: 2px dashed wheat;
+    margin: 20px 0px 0px 450px;
+}
+
+#Premium{
+    height: 200px;
+    width: 450px;
+    background-color: gold;
+    border: 2px dashed wheat;
+    margin: 20px 0px 0px 20px;
+    position: relative;
+    bottom: 450px;
+    left: 800px;
+}
+
+/*Inside of them*/
+
+.pn{
+    display: inline;
+    color: slateblue;
+    text-align: center;
+}
+
+.p{
+    color: green;
+}
+
+.v{
+    color: gray;
+}
+
+.d{
+    color: steelblue;
+}
+
+.c{
+    color: violet;
+}
+
+.e{
+    color: mediumpurple;
+}
+
+.bu{
+    background-color: dodgerblue;
+    color: blanchedalmond;
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}
